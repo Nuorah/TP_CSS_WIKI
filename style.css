@@ -11,21 +11,32 @@ body {
 }
 
 .navbar {
-	background-color: white;
-	padding: 20px 40px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;	
 	border: 1px solid #EFEFEE;
 }
 
 .navbar__element {
 	display: flex;
 	align-items: center;
+	height: 100%;
+	padding: 20px 40px;
 }
 
-.navbar__element--logo {
+.navbar__element--profile {
+	border-left: 1px solid #EFEFEE;
+}
+
+.navbar__img {
 	width: 50px;
 	margin-right: 16px;
 }
 
-.navbar__element--name {
+.navbar__img--avatar {
+	border-radius: 50%;
+}
+
+.navbar__text {
 	color: #9E999C;
 }
