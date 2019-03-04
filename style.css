@@ -39,6 +39,7 @@ body {
 
 .navbar__img img {
 	width: 50px;
+	cursor: pointer;
 	
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 .navbar__messages {
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	background-color: white;
@@ -58,11 +59,10 @@ body {
 	right: 0;
 	color: #9E999C;
 	border: 1px solid #EFEFEE;
-	display: none;
 }
 
 .navbar__item:hover .navbar__messages {
-	display: flex;
+	
 }
 
 .navbar__text {

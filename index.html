@@ -24,7 +24,7 @@
 			<div class="navbar__item navbar__item--profile">
 				<div class="navbar__img navbar__img--avatar">
 					<div class="navbar__notification">3</div>	
-					<img src="avatar.jpg" alt="">					
+					<img src="avatar.jpg" alt="" onclick="navbarMessagesOnClick()">					
 				</div>			
 				<div class="navbar__text">Marie Thompson</div>
 				<div class="navbar__messages">
@@ -71,4 +71,17 @@
 		</div>
 	</div>
 </body>
+<script>
+	function navbarMessagesOnClick() {
+		console.log("click")
+  var x = document.getElementsByClassName("navbar__messages")[0];
+  if (x.style.display === "none" || x.style.display == "") {
+    x.style.display = "flex";
+     console.log("flex")
+  } else {
+    x.style.display = "none";
+    console.log("none")
+  }
+} 
+</script>
 </html>
