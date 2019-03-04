@@ -33,14 +33,34 @@ body {
 .navbar__img {
 	width: 50px;
 	margin-right: 16px;
+	position:relative ;
 }
 
-.navbar__img--avatar {
+.navbar__img img {
+	width: 50px;
+	
+}
+
+.navbar__img--avatar img {
 	border-radius: 50%;
 }
 
 .navbar__text {
 	color: #9E999C;
+}
+
+.navbar__notification {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 24px;
+	background-color: #026AD1;
+	right: 0px;
+	bottom: -8px;
 }
 
 .content {
@@ -96,13 +116,12 @@ body {
 	font-weight: normal;
 }
 
-.card__content--title {
+.card__title {
 	font-size: 32px;
 	margin-bottom: 4px;
 }
 
-.card__content--description {
+.card__description {
 	color: #B4B4B4;
 	margin-top: 4px;
-
 }
