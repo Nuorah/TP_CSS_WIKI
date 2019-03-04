@@ -61,10 +61,6 @@ body {
 	border: 1px solid #EFEFEE;
 }
 
-.navbar__item:hover .navbar__messages {
-	
-}
-
 .navbar__text {
 	color: #9E999C;
 }
