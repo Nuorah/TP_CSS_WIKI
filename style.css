@@ -61,5 +61,46 @@ body {
 
 .header__title--secondary {
 	color: #B4B4B4;
-	
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border: 1px solid #EFEFEE;
+	border-radius: 10px;
+	padding: 20px 40px;
+	margin-bottom: 20px;
+}
+
+.card__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	border-radius: 50%;
+	background-color: #E5EFF5;
+}
+
+.card__logo img {
+	width: 50px;
+}
+
+.card__logo--responsive {
+	background-color: #FEE0DF;
+}
+
+.card__content {
+}
+
+.card__content--title {
+	font-size: 32px;
+	margin-bottom: 4px;
+}
+
+.card__content--description {
+	color: #B4B4B4;
+	margin-top: 4px;
 }
