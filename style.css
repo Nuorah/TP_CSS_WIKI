@@ -8,6 +8,8 @@ body {
 }
 
 .container {
+	font-family: 'Asap', sans-serif;
+	color: #292728;
 }
 
 .navbar {
@@ -17,14 +19,14 @@ body {
 	border: 1px solid #EFEFEE;
 }
 
-.navbar__element {
+.navbar__item {
 	display: flex;
 	align-items: center;
 	height: 100%;
 	padding: 20px 40px;
 }
 
-.navbar__element--profile {
+.navbar__item--profile {
 	border-left: 1px solid #EFEFEE;
 }
 
@@ -39,4 +41,25 @@ body {
 
 .navbar__text {
 	color: #9E999C;
+}
+
+.content {
+	max-width: 800px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+
+.header__title {
+	font-weight: normal;
+}
+
+.header__title--main {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.header__title--secondary {
+	color: #B4B4B4;
+	
 }
