@@ -24,6 +24,7 @@ body {
 	align-items: center;
 	height: 100%;
 	padding: 20px 40px;
+	position: relative;
 }
 
 .navbar__item--profile {
@@ -43,6 +44,25 @@ body {
 
 .navbar__img--avatar img {
 	border-radius: 50%;
+}
+
+.navbar__messages {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	bottom: -50%;
+	right: 0;
+	color: #9E999C;
+	border: 1px solid #EFEFEE;
+	display: none;
+}
+
+.navbar__item:hover .navbar__messages {
+	display: flex;
 }
 
 .navbar__text {
