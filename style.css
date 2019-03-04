@@ -82,19 +82,24 @@ body {
 	margin: auto;
 	padding-left: 20px;
 	padding-right: 20px; 
+
+}
+
+.header {
+	margin-bottom: 40px;
 }
 
 .header__title {
 	font-weight: normal;
-}
-
-.header__title--main {
 	font-size: 40px;
 	margin-bottom: 20px;
 }
+	
 
-.header__title--secondary {
+.header__subtitle {
 	color: #B4B4B4;
+	font-size: 16px;
+	font-weight: normal;
 }
 
 .card {
@@ -138,6 +143,7 @@ body {
 .card__description {
 	color: #B4B4B4;
 	margin-top: 4px;
+	font-weight: normal;
 }
 
 @media(max-width: 600px){
