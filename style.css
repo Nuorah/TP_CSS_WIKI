@@ -93,6 +93,7 @@ body {
 }
 
 .card__content {
+	font-weight: normal;
 }
 
 .card__content--title {
@@ -103,4 +104,5 @@ body {
 .card__content--description {
 	color: #B4B4B4;
 	margin-top: 4px;
+
 }
